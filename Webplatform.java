@@ -13,9 +13,9 @@ public class Webplatform {
 	}
 	
 	// This must show all available cabins/pitches * percentage for 1 week.
-	public void calcWebEarnings() {
-		//totalEarning = (Campsite.calculatePrice() * percentage); // *7 days
-		// return totalEarning
+	public Object calcWebEarnings() {
+		Object totalEarning = (Campsite.calculatePrice() * percentage); // *7 days
+		 return totalEarning;
 	}
 	
 	public String toString() {
