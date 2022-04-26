@@ -32,6 +32,68 @@ public class Campsite {
 	
 	
 	
+	public String setNewReservation() {
+		String newReservation = null;
+		return newReservation;
+	}
+	
+	// methods:
+	
+	public int posReservation() {
+		for (int i = 0; i<reservation.length; i++) {
+			if (i = Client.ID) { // why not working?
+				return i;
+			}else {
+				break;
+			}
+		} return posReservation();
+	}
+	
+	
+	public static double calculatePrice() {
+		double accPrice = 0;
+		boolean reservationFound = false;
+		// should there not be something here?
+		// yes - find pos (ID) in reserv-array, multiply by noDaysStay and price.
+		for (int i = 0; i<reservation.length; i++) {
+			if (reservation[i] = Client.ID) { // how to connect to Client Class?
+				reservationFound = true;
+				accPrice = (Accomodation.noDaysStay*price);
+				break;
+			}		
+		}
+			return accPrice;
+
+			
+	}
+	
+	
+	public int showPercentage() {
+		int percentage = 0;
+		if(VIPCustomer.VIPCardNo = null) {
+			percentage = 5;
+		}else {
+			percentage = 10;
+		}
+		return showPercentage();
+		
+	}
+	
+	// method show reservations of client.
+	public String toStringClient() {
+		for(int i=0; i<reservation.lenght; i++) {
+			if (i = Client.ID){
+				return Client.ID;
+			}else break;
+		}return Client.ID + "\n" + name + "\n" + area;
+		
+	}
+			
+		
+	public int freeCabins() {
+		return freeCabins();
+	}
+	
 	
 }
 
