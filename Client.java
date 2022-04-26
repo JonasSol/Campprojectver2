@@ -46,8 +46,10 @@ public class Client {
 	
 	
 	// only showing info regarding reservations:
+	@SuppressWarnings("unused")
 	public Reservation[] tostring() {
 		for (int i=0; i<reservation.length; i++)
+		return reservation;
 		return reservation;
 		
 	}
