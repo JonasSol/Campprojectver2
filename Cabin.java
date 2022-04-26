@@ -20,5 +20,7 @@ public class Cabin extends Accomodation {
 	
 	
 	
-	
+	public String toString() {
+		return super.toString() + "numberOfBedrooms" + noBedrooms + "wifi" +  wifi;
+ 	}
 }
