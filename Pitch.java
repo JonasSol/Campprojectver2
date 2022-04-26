@@ -1,13 +1,14 @@
 
 public class Pitch extends Accomodation{
 	int suitableForCamper;
-	//boolean hasBBQ; // Denne er også i Accomodation (burde heller være her.
+	boolean hasBBQ; 
 	
 	
-	public Pitch(int suitableForCamper, boolean HasBBQ, int noPeople, int availability, int noDaysStay) {
+	public Pitch(int suitableForCamper, boolean HasBBQ, int noPeople, int availability, int noDaysStay, boolean hasBBQ) {
 		super(noPeople, availability, noDaysStay, HasBBQ);
 		
 		this.suitableForCamper = suitableForCamper;
+		this.hasBBQ = hasBBQ;
 	}
 	
 	public String toString() {
@@ -18,5 +19,7 @@ public class Pitch extends Accomodation{
 		this.suitableForCamper = suitableForCamper;
 	}
 	
-	//Set hasBBQ?
+	public void sethasBBQ(boolean hasBBQ) {
+		this.hasBBQ = hasBBQ;
+	}
 }
