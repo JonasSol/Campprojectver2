@@ -63,6 +63,13 @@ public class Client {
 	}
 	
 	
+	
+	public Reservation[] toString1() {
+		for (int i=0;i<reservation.length; i++)
+			if (reservation[i]!=null) 
+				continue;
+		return reservation;	
+	}
 }
 
 
